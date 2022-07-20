@@ -1,0 +1,41 @@
+.container {
+  position: relative;
+  border: 1px solid yellow;
+}
+.container div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#rod1 {
+  height: 25px;
+  top: 1%;
+  width: 140px;
+  left: 47%;
+  position: fixed;
+  background-color: green;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+#rod2 {
+  height: 25px;
+  top: 95%;
+  width: 140px;
+  left: 47%;
+  position: fixed;
+  background-color: blue;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+#ball {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  top: 48%;
+  left: 49%;
+  position: fixed;
+  background-color: red;
+  border: 2px solid black;
+}
